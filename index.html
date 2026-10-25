@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO & Search Engine Optimization (для поисковиков Google и Яндекс) -->
+  <title>Серверы Roblox | Официальный мониторинг и список серверов сообщества</title>
+  <meta name="description" content="Лучшие серверы Roblox нашего сообщества: Roleplay, PvP, Выживание и мини-игры. Актуальный онлайн, правила, VIP-серверы и быстрый вход в игру.">
+  <meta name="keywords" content="Roblox, роблокс, серверы роблокс, roblox servers, vip серверы, rp роблокс, мониторинг роблокс, дискорд роблокс">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Discord & VK Embeds (красивое превью при отправке ссылки в Discord, VK, TG) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Список серверов Roblox нашего сообщества">
+  <meta property="og:description" content="Заходи на наши серверы в Роблокс! Актуальный онлайн, активная администрация и крутые ивенты.">
+  <meta property="og:image" content="https://images.rbxcdn.com/f95c470129a0eb5e36f019b8cfd84e3c.jpg">
+  <meta name="theme-color" content="#e11d48">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Фоновые неоновые эффекты -->
+  <div class="bg-glow bg-glow-red"></div>
+  <div class="bg-glow bg-glow-blue"></div>
+
+  <!-- Шапка сайта -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <div class="roblox-cube">R</div>
+        <span class="logo-title">ROBLOX<span class="highlight">HUBS</span></span>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="#servers">Серверы</a>
+        <a href="#about">О проекте</a>
+        <a href="#rules">Правила</a>
+        <a href="#discord" class="btn-discord-nav">Вступить в Discord</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Главный баннер (Hero) -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="status-live-pill">
+        <span class="live-dot"></span>
+        <span id="total-players-count">ОНЛАЙН: 342 ИГРОКА</span>
+      </div>
+
+      <h1 class="hero-title">
+        ЛУЧШИЕ СЕРВЕРЫ <br>
+        <span class="gradient-text">ДЛЯ ИГРЫ В ROBLOX</span>
+      </h1>
+
+      <p class="hero-desc">
+        Официальный список игровых плейсов и VIP-серверов нашего сообщества. Выбирай режим, жми «Играть» и подключайся прямо сейчас!
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#servers" class="btn btn-red">🎮 Выбрать сервер</a>
+        <a href="https://discord.gg" target="_blank" class="btn btn-discord">💬 Наш Discord</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Список серверов -->
+  <section id="servers" class="servers-section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title">Игровые серверы</h2>
+          <p class="section-subtitle">Выберите режим и присоединяйтесь к серверу в один клик</p>
+        </div>
+
+        <!-- Поиск и фильтры -->
+        <div class="filter-controls">
+          <input type="text" id="search-input" placeholder="🔍 Поиск сервера..." class="search-box">
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="roleplay">RolePlay</button>
+            <button class="filter-btn" data-filter="pvp">PvP / Арена</button>
+            <button class="filter-btn" data-filter="survival">Выживание</button>
+            <button class="filter-btn" data-filter="minigames">Мини-игры</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Сетка серверов -->
+      <div id="servers-grid" class="servers-grid">
+        <!-- Карточки генерируются динамически через script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Блок «О сообществе» -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="card-num">01</div>
+          <h3>Античит и порядок</h3>
+          <p>Активная модерация 24/7 и защита от токсичности и читеров на всех наших серверах.</p>
+        </div>
+        <div class="about-card">
+          <div class="card-num">02</div>
+          <h3>Еженедельные ивенты</h3>
+          <p>Турниры, розыгрыши робуксов (Robux), кастомные квесты и призы для активных участников.</p>
+        </div>
+        <div class="about-card">
+          <div class="card-num">03</div>
+          <h3>Собственные VIP-серверы</h3>
+          <p>Приватные плейсы без лишних игроков для тренировок, съёмок роликов и стримов.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Правила -->
+  <section id="rules" class="rules-section">
+    <div class="container">
+      <div class="rules-card">
+        <h2 class="section-title">Правила наших серверов</h2>
+        <p class="section-subtitle">Ознакомьтесь с правилами во избежание банов</p>
+
+        <ul class="rules-list">
+          <li><strong>1. Уважение к игрокам:</strong> Запрещены оскорбления, травля, разжигание ненависти и спам в чате.</li>
+          <li><strong>2. Честная игра:</strong> Использование любых эксплойтов, скриптов, стороннего ПО (читов) карается перманентным баном.</li>
+          <li><strong>3. Ролевой отыгрыш (на RP-серверах):</strong> Соблюдайте реалистичное поведение персонажа (Non-RP, RDM, VDM запрещены).</li>
+          <li><strong>4. Администрация:</strong> Решение старших модераторов окончательно. Для подачи апелляции перейдите в Discord.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Discord баннер -->
+  <section id="discord" class="discord-section">
+    <div class="container">
+      <div class="discord-banner">
+        <div class="discord-info">
+          <h2>Присоединяйся к нашему Discord-серверу!</h2>
+          <p>Общайся с другими игроками, участвуй в голосованиях за новые серверы и получай оповещения об обновлениях первыми.</p>
+        </div>
+        <a href="https://discord.com" target="_blank" class="btn btn-discord btn-large">
+          <span>🎮 Вступить в комьюнити</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <div class="logo small">
+          <div class="roblox-cube">R</div>
+          <span class="logo-title">ROBLOX<span class="highlight">HUBS</span></span>
+        </div>
+        <p>Неофициальное сообщество игроков Roblox. Все торговые марки Roblox принадлежат Roblox Corporation.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#servers">Серверы</a>
+        <a href="#rules">Правила</a>
+        <a href="https://roblox.com" target="_blank">Roblox.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Всплывающие уведомления (Toast) -->
+  <div id="toast-box" class="toast-box"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
